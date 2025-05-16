@@ -1,6 +1,6 @@
 import {createAsyncThunk} from '@reduxjs/toolkit';
-import {getWeather} from '../../services';
-import { AxiosError } from 'axios';
+import {getWeather} from '@services';
+import {AxiosError} from 'axios';
 
 export const weatherThunk = createAsyncThunk(
   'getWeather',

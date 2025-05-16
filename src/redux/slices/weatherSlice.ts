@@ -1,7 +1,7 @@
 import {createSlice} from '@reduxjs/toolkit';
 import {AxiosError} from 'axios';
-import {weatherThunk} from '../thunks/weatherThunk';
-import {Weather} from '../../modals/modals';
+import {weatherThunk} from '@redux/thunks/weatherThunk';
+import {Weather} from '@modals/modals';
 
 const initialState: {
   loading: boolean;

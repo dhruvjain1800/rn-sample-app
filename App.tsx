@@ -12,10 +12,14 @@ import React from 'react';
 import {SafeAreaView} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {MainNavigator} from './src/navigation';
+import {CommonStyles} from '@styles';
+import {useTheme} from '@theme';
 
 const App = () => {
+  const {theme} = useTheme();
+  const styles = CommonStyles(theme);
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: 'red'}}>
+    <SafeAreaView style={styles.rootContainer}>
       <NavigationContainer>
         <MainNavigator />
       </NavigationContainer>

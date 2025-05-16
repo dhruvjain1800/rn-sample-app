@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {Palette} from '../../theme';
+import {Palette} from '@theme';
 
 export const SearchInputStyles = (palette: Palette) =>
   StyleSheet.create({

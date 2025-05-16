@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Pressable} from 'react-native';
-import {useTheme} from '../../theme';
-import {themeScheme} from '../../theme/theme';
+import {useTheme} from '@theme';
+import {themeScheme} from '@theme';
 import {ThemeToggleStyles} from './ThemeToggleStyles';
 import Icon from 'react-native-vector-icons/Feather';
 

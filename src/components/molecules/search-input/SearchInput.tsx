@@ -7,7 +7,7 @@ import {
   ViewStyle,
 } from 'react-native';
 import {SearchInputStyles} from './SearchInputStyles';
-import {useTheme} from '../../theme';
+import {useTheme} from '@theme';
 
 interface SearchInputProps extends TextInputProps {
   onPress?: () => void;

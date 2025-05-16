@@ -29,5 +29,5 @@ function ThemeProvider({children}: any) {
   );
 }
 
-export {ThemeProvider, ThemeContext};
+export {ThemeProvider, ThemeContext, themeScheme};
 export type {Palette};

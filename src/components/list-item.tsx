@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Text, View, StyleSheet, Image, Pressable} from 'react-native';
-import {ListItem} from '../modals';
+import {ListItem} from '@modals';
 
 interface ListItemProps {
   item: ListItem;
